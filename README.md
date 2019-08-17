@@ -15,3 +15,7 @@ This is a `README` that includes all the key points and how I addressed each one
 
 
 ## 1. Network Architecture
+
+The final version network architecture of the fully convolutional networks (FCN) in this project is shown below:
+
+![Network_Architecture](image/Network_Architecture.PNG)
