@@ -32,5 +32,6 @@ In the end, the final convolution provides classification probabilities for ever
 
 ## 2. Neural network's parameters
 ### 2.1 Epoch
+Epoch is the number of iterations until the network stops learning or start overfitting. 
 ### 2.2 Learning Rate
 ### 2.3 Batch Size
