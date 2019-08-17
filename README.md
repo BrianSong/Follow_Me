@@ -39,3 +39,18 @@ As in most popular FCN designs, hyperparameters should be limited to learning ra
 And after several try and test, the learning rate is set to 0.005, the epoch is set to 20 and the batch size is set to 64.
 
 ## 3. Result
+
+Below is the learning curve after 20 epoches, the loss curve is dropping continuously without divergence. 
+
+![Training_curve](image/Training_curve.PNG)
+
+The corresponding semantic segmentation for the scenarios like following the target, patroling with target and patroling without target are shown below:
+
+![Following_target](image/Following_target.PNG)
+
+![Patrol_with_target](image/Patrol_with_target.PNG)
+
+![Patrol_without_target](image/Patrol_without_target.PNG)
+
+## 4. Future Enhancements
+
