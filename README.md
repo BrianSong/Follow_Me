@@ -57,5 +57,5 @@ The final score for this FCN is 0.459662052405 that passes the requirement 0.40.
 ## 4. Future Enhancements
 Although the project is finished, there are still some ways that may lead to future enhancements:
 1. Collect more data for training.
-2. Neural network's hyperparameters may be further tuned for better performance, instead of manually tuning, automatic hyperparameter tuning like Bayesian optimization may be applied in the future.
+2. Neural network's hyperparameters may be further tuned for better performance, for example, more epochs should be tried until loss start to diverge (overfitting). Also, instead of manually tuning, automatic hyperparameter tuning like Bayesian optimization may be applied in the future.
 3. More combinations of encoder and decoder should be tried and come up with a more ideal model.
