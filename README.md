@@ -14,4 +14,4 @@ This is a `README` that includes all the key points and how I addressed each one
 4. Train your network and achieve an accuracy of 40% (0.40) using the Intersection over Union IoU metric which is final_grade_score at the bottom of your notebook.
 
 
-# 1. Network Architecture
+## 1. Network Architecture
