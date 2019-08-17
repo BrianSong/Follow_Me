@@ -31,4 +31,6 @@ Next is the decoder section where the feature maps are upsample using bilinear i
 In the end, the final convolution provides classification probabilities for every pixel for semantic segmentation.
 
 ## 2. Neural network's parameters
-
+### 2.1 Epoch
+### 2.2 Learning Rate
+### 2.3 Batch Size
