@@ -30,8 +30,12 @@ Next is the decoder section where the feature maps are upsample using bilinear i
 
 In the end, the final convolution provides classification probabilities for every pixel for semantic segmentation.
 
-## 2. Neural network's parameters
-### 2.1 Epoch
-Epoch is the number of iterations until the network stops learning or start overfitting. 
-### 2.2 Learning Rate
-### 2.3 Batch Size
+## 2. Neural network's hyperparameters
+
+There are several important neural network's hyperparameters we need to tuned in order to achieve the best result. For example, the epoch (the number of iterations until the network stops learning or start overfitting), the learning rate and batch size (number of training samples/images that get propagated through the network in a single pass).
+
+As in most popular FCN designs, hyperparameters should be limited to learning rate = [0.001, 0.3], batch = [32, 64] and filter number = [32, 1024] for further investigation.
+
+And after several try and test, the learning rate is set to 0.005, the epoch is set to 20 and the batch size is set to 64.
+
+## 3. Result
