@@ -1,5 +1,5 @@
 # Udacity_RoboND_Follow_Me
-*In this project, A quadrotor can identify a female target hero from the crowd and follow her. The identification task is achieved by semantic segmentation in fully convolutional networks (FCN). Moreover, the quadrotor is controlled by PID that will be also discussed in this `README.md`.*
+*In this project, A quadrotor can identify a female target hero from the crowd and follow her. The identification task is achieved by semantic segmentation in fully convolutional networks (FCN).*
 
 **Python with TensorFlow and Keras** are used for implementing this project and **Unity** is used for simulating the environment.
 
