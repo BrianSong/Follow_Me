@@ -26,7 +26,7 @@ The followed batch normalization is based on the idea that, instead of just norm
 
 After the encoder section (six separable convolution layers) is the 1\*1 convolution. We can't use fully connected layers here because we need to preserve spatial information (every pixel in an image have to be classified).
 
-Next is the decoder section where the feature maps are upsample using bilinear interpolation. Skip connection via concatenation after upsampling allows to use data from the input high resolution image. Two additional separable convolution layers are applied after concatenation and introduce nonlinearity by ReLu built-inside. After every separable convolution a batch normalization is also applied to provide better convergence and normalization. 
+Next is the decoder section where the feature maps are upsample using bilinear interpolation three times. Skip connection via concatenation after upsampling allows to use data from the input high resolution image. Two additional separable convolution layers are applied after concatenation and introduce nonlinearity by ReLu built-inside. After every separable convolution a batch normalization is also applied to provide better convergence and normalization. 
 
 In the end, the final convolution provides classification probabilities for every pixel for semantic segmentation.
 
