@@ -46,11 +46,11 @@ Below is the learning curve after 20 epochs, the loss curve is dropping continuo
 
 The corresponding semantic segmentation for the scenarios like following the target, patroling with target and patroling without a target is shown below:
 
-![Following_target](image/Following_target.PNG)
+![Following_target](image/Following_target_new.PNG)
 
-![Patrol_with_target](image/Patrol_with_target.PNG)
+![Patrol_with_target](image/Patrol_with_target_new.PNG)
 
-![Patrol_without_target](image/Patrol_without_target.PNG)
+![Patrol_without_target](image/Patrol_without_target_new.PNG)
 
 The final score for this FCN is 0.459662052405 that passes the requirement 0.40.
 
